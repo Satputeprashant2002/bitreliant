@@ -1,0 +1,493 @@
+.contactmain{
+   
+    display: flex;
+    flex-direction: column;
+}
+.contactmainup{
+    height: 400px;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 245);
+}
+.c-m-utr{
+    align-items: center;
+    width:50%;
+    padding:30px 80px ;
+}
+
+.c-m-utr h1{
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 45px;
+  color:black;
+}
+
+.c-m-utr-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.c-m-utr-btn a {
+  border: none;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding: 7px 40px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #161513;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.btn-r a{
+  border:1px solid #161513;
+  color:black;
+  background-color: white;
+}
+
+.btn-r a:hover{
+  border:1px solid black;
+  color: white;
+  transition: all 0.3s ease;
+  background-color: #161513;
+}
+.c-m-utl{
+    width:40%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.c-m-utr-para-text p{
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 30px;
+  padding: 1rem;
+  padding-left: 0;
+  text-align: justify;
+  line-height: 18px;
+}
+
+
+.contactways{
+    display: flex;
+    justify-content:space-between;
+    padding: 3rem;
+}
+
+.requestservice{
+    background-color:  #143642;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    width:30%;
+    color: aliceblue;
+}
+
+.contactus{
+    
+   color: black; 
+}
+.contactus h2{
+  
+   font-size: 45px;
+   font-weight: 500;
+ 
+}
+
+.contactus-tog{
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+.look-f-s-e{
+    padding: 20px 10px;
+    background:linear-gradient(to right,rgb(126, 126, 192),rgb(82, 61, 157));
+    width:40%; 
+}
+.look-f-s-e h2{
+    margin-bottom: 20px;
+    font-size:25px;
+    width:fit-content;
+    position:relative;
+    color: white;
+    padding-right: 40px;
+    
+}
+.look-f-s-e h2::after{
+    content: '';
+    position: absolute;
+    top:13px;
+    right:0;
+    height: 20px;
+    width: 20px;
+    background: url('../../components/images/Group\ 5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-inqu{
+    
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-bottom: 25px;
+}
+.cont-inqu a{
+    font-size: 20px;
+    text-decoration: none;
+    width:fit-content;
+    color:white;
+    position: relative;
+    padding-right: 25px;
+}
+.cont-inqu a::after{
+  content: '';
+  position: absolute;
+  top:11px;
+  right:0;
+  height: 15px;
+  width: 15px;
+  background: url('../../components/images/Group\ 5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .look-f-s-e img{
+    border-radius: 50%;
+    padding:5px;
+    width: 25px;
+    height: 15px;
+} */
+.contact-e-n-tog{
+    display: flex;
+    color: white;
+    gap:20px;
+    margin-bottom: 25px;
+}
+.contact-n a,.contact-e a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.contact-n p,.contact-e p{
+    font-size:15px;
+}
+.cont-location{
+    justify-items: center;
+    width:100%;
+}
+.cont-location iframe{
+    width:90%;
+    margin:15px;
+   
+}
+
+
+.cont-form{
+    width:50%;
+    padding: 1rem; 
+    
+}
+.cont-form input,.cont-form select,.cont-form textarea,.cont-form button{
+    margin-top: 25px;
+    height: 15px;
+    font-size:15px;
+    height: 40px;
+    width: 47%;
+    border: 0;
+    border-bottom: 1px solid  rgba(184, 179, 179, 0.684);
+    background: transparent;
+    outline: none;
+    padding-left: 10px;
+}
+.cont-form textarea{
+   width: 100%;
+   height: 30px;
+}
+
+.cont-form input[type="radio" i]{
+    margin: 0px;
+    width: fit-content;
+}
+.cont-form span{
+    font-size: 15px;
+}
+
+.cont-form p{
+    font-size: 15px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.cont-form button{
+    margin-top: 25px;
+    background-color: #143642;
+    color: white;
+    border-radius: 10px;
+}
+.cont-method{
+ align-items: center;
+ display: flex;
+ gap:10px;
+ margin: 6px 0px 0px 0px;
+ padding-left: 10px;
+}
+.recaptch{
+        margin: 27px 0px;
+}
+.cont-termcondition {
+ display: flex;
+}
+
+.cont-form input[type="checkbox"] {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 0px;
+}
+
+/* FAQ */
+/* FAQ Section Styling */
+.image-container {
+  position: relative;
+  width: 100%;
+  height:200px;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 100%; 
+  height: 200px;
+  object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  justify-content: center;
+  top:50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+}
+  
+.faq-item {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  position: relative;
+  font-size: 18px;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+
+.faq-que h2 {
+ text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.faq-question::after {
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: url('../../components/images/down.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+
+.faq-question.active::after {
+  transform: rotate(180deg) translateY(-50%);
+}
+
+.faq-answer {
+  padding: 10px 25px;
+}
+.faq-answer p{
+  font-size: 15px;
+}
+.faq-answer span{
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+
+
+
+ @media(max-width:468px ) {
+    .contactmainup{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+    }
+    .c-m-utr{
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        width:100%;  
+    }
+    .c-m-utr h1 {
+       
+        font-weight: 300;
+        font-size: 25px;
+    }
+   
+    
+    .c-m-utr p{
+      font-weight: 500;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    .c-m-utr-btn a{
+      padding: 7px 25px
+    }
+    
+    .c-m-utl img{
+        display: none;
+    }
+    .contactways {
+        display: flex ;
+        flex-direction: column;
+    }
+    .requestservice p,.requestservice a{
+         font-size: 20px;
+    }
+    .requestservice {
+        background-color: #143642;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+        color: aliceblue;
+    }
+    .contactus h2 {
+        font-size: 45px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contactus-tog {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap:0%;
+    }
+    .look-f-s-e {
+        padding: 20px 10px;
+        background: linear-gradient(to right, rgb(126, 126, 192), rgb(82, 61, 157));
+        width: 100%; 
+    }
+    .look-f-s-e h2 {
+        font-size: 30px;
+        text-align: left;
+        margin-right: 2px;
+        padding-right: 0px;
+    }
+    .look-f-s-e h2::after {
+        top: 43px;
+        right: 200px;
+    }
+    .cont-inqu a::after {
+        top: 5px;
+    }
+    .cont-form {
+       box-shadow: #143642;
+        width: 100%;
+        align-self:center ;
+        padding: 2rem;
+        margin-bottom: 10px;
+       
+    }
+    
+    .cont-form input, .cont-form select, .cont-form textarea, .cont-form button {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .recaptch{
+        width:70%;
+        align-self: center;
+        
+    }
+    .rc-anchor-error-message {
+        color: rgb(212, 189, 189);
+        font-family: Roboto, helvetica, arial, sans-serif;
+        font-size: 80px;
+        font-weight: 100;
+        line-height: 16px;
+        
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .cbtn {
+      padding: 8px 16px; 
+      font-size: 14px; 
+    }
+  
+    .faq-que h2 {
+      margin-bottom: 20px;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .image-container {
+      position: relative;
+      display: flex;
+      width: 100%;
+      height:150px;
+      margin-bottom: 20px;
+    }
+    .image {
+      width: 100%;
+      height: 150px;
+  }
+  .overlay-text {
+    text-align: center;
+    justify-content: center;
+
+    font-size: 45px;
+ 
+  }
+  }
+  @media only screen and (max-width: 400px) {
+    .cbtn {
+      padding: 6px 12px; 
+      font-size: 12px; 
+    }
+  
+    .chat-window {
+      width: 90%; 
+      height: 300px; 
+    }
+  
+    .chat-input {
+      height: 50px; 
+      font-size: 12px; 
+    }
+  
+    .send-btn {
+      font-size: 14px; 
+    }
+  }
+  
+
+
